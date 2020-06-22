@@ -9,7 +9,7 @@
         <!-- <router-link to="/">Предварительный договор</router-link> |
         <router-link to="/about">Основной договор</router-link> |
         <router-link to="/about1">Юр. лицо договор</router-link> | -->
-        <router-link to="/">Договор на технику</router-link>
+        <router-link to="/">Договор на технику (click me please)</router-link>
         <!-- <router-link to="/test">TEST</router-link> -->
       </div>
       <router-view :li="fi"/>
