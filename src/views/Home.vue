@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <urtehn :li='li' />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import urtehn from '@/components/urTehn.vue'
 
 export default {
-  name: 'home',
+  props: ['li'],
+  name: 'about2',
   components: {
-    HelloWorld
+    urtehn
+  },
+  data() {
+    return {
+      // l: console.log(this.li)
+    }
   }
 }
 </script>
